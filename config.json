@@ -1,0 +1,14 @@
+{
+  "bleDevice": {
+    "name": "BLE Device",
+    "services_uuids": ["1803"],
+    "characteristics": {
+      "1803": {
+        "2c00": ["notify", "indicate", "write", "writeWithoutResponse"],
+        "2c01": ["read"],
+        "2c02": ["indicate"],
+        "2c03": ["notify"]
+      }
+    }
+  }
+}
